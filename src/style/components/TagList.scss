@@ -1,0 +1,28 @@
+@import '../variables.scss';
+
+.tag-list {
+  width: 264px;
+  height: fit-content;
+  flex-shrink: 0;
+  padding: 12px;
+  border: 1px solid rgba(207, 207, 228, 1);
+  border-radius: 18px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.tag-item {
+  width: 240px;
+  height: 42px;
+  padding: 12px;
+  border-radius: 12px;
+  font-family: 'Nunito';
+  color: $main-text-color;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 18px;
+  &_active {
+    background-color: rgba(95, 191, 119, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+}

@@ -1,0 +1,25 @@
+@import './components/TagList.scss';
+@import './components/CourseList.scss';
+@import './components/CourseCard.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: local('Nunito'),
+    url('../fonts/Nunito/Nunito-ExtraBold.ttf') format('truetype');
+}
+
+.container {
+  display: flex;
+  padding: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
